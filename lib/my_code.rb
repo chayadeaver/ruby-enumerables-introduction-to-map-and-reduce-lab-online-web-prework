@@ -31,8 +31,5 @@ end
 
 
 def reduce_to_any_true(source_array)
-  if source_array.any? {|n| n == false}
-  else
-    source_array
-  end
+ 
 end
